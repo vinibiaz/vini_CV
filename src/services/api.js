@@ -1,24 +1,22 @@
-import { FaGithub, FaFacebook, FaInstagram, FaTwitter, FaLinkedin, FaWhatsapp } from 'react-icons/fa';
-import moveisBerna from '../assets/images/moveis-berna.jpg';
-import imageDefault from '../assets/images/default.jpg';
-import simoneVeber from '../assets/images/simone-veber.jpg';
-
+//import { FaGithub, FaFacebook, FaInstagram, FaTwitter, FaLinkedin, FaWhatsapp } from 'react-icons/fa';
+// import moveisBerna from '../assets/images/moveis-berna.jpg';
+// import imageDefault from '../assets/images/default.jpg';
 const api = [
   {
     name: 'Facebook',
-    icon: <FaFacebook size={32} color={"#fff"} />,
+    //icon: <FaFacebook size={32} color={"#fff"} />,
     background_color: "#1877f2",
     link: "https://www.facebook.com/pedro.veber.3",
   },
   {
     name: 'LinkedIn',
-    icon: <FaLinkedin size={32} color={"#fff"} />,
+    //icon: <FaLinkedin size={32} color={"#fff"} />,
     background_color: "#0077b5",
     link: "https://www.linkedin.com/in/viniciusbiesuz/",
   },
   {
     name: 'Instagram',
-    icon: <FaInstagram size={32} color={"#fff"} />,
+    //icon: <FaInstagram size={32} color={"#fff"} />,
     background_color: "#515bd4",
     link: "https://www.instagram.com/viniciusbiesuz/",
   },
@@ -30,13 +28,13 @@ const api = [
   // },
   {
     name: "Github",
-    icon: <FaGithub size={32} color={"#fff"} />,
+    //icon: <FaGithub size={32} color={"#fff"} />,
     background_color: "#090909",
     link: "https://github.com/vinibiaz",
   },
   {
     name: "WhatsApp",
-    icon: <FaWhatsapp size={32} color={"#fff"} />,
+    //icon: <FaWhatsapp size={32} color={"#fff"} />,
     background_color: "#075e54",
     link: "https://whatsapp.com.br/vini",
   },
